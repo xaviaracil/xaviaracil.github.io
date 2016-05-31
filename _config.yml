@@ -214,9 +214,9 @@ defaults:
       path: ""
       type: posts
     values:
-      read_time: true
       layout: single
-      comments: true
+      read_time: true
       author_profile: true
+      comments: true
       share: true
       related: true
