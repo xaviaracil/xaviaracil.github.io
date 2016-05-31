@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-06-20 20:48:19+00:00
-layout: single
 slug: curso-programacion-ios
 title: Curso programación iOS
 wordpress_id: 170

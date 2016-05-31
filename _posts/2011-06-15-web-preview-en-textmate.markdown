@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-06-15 09:28:42+00:00
-layout: single
 slug: web-preview-en-textmate
 title: Web Preview en Textmate
 wordpress_id: 161

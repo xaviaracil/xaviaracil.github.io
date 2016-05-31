@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-15 07:35:25+00:00
-layout: single
 slug: en-el-couchbase-barcelona-developer-day
 title: En el Couchbase Barcelona Developer Day
 wordpress_id: 242

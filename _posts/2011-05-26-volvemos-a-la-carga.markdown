@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-05-26 19:23:37+00:00
-layout: single
 slug: volvemos-a-la-carga
 title: Volvemos a la carga
 wordpress_id: 105

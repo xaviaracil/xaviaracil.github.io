@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-10-17 07:48:34+00:00
-layout: single
 slug: anadir-carpeta-sites-del-usuario-en-os-x-server
 title: Añadir carpeta Sites del usuario en OS X Server
 wordpress_id: 295

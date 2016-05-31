@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-04-14 20:22:58+00:00
-layout: single
 slug: xcode-4-0-2
 title: XCode 4.0.2
 wordpress_id: 101

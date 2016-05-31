@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-03-30 07:35:34+00:00
-layout: single
 slug: actualizar-rails-a-3-0-5
 title: Actualizar Rails a 3.0.5
 wordpress_id: 94

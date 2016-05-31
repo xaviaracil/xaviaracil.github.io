@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-02-02 18:00:46+00:00
-layout: single
 slug: anadir-lenguages-a-textmate
 title: Añadir lenguages a TextMate
 wordpress_id: 201

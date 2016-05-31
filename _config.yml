@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "es-ES"
 title                    : "Desarrollo En Mac"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Xavi Aracil Díaz"
 description              : "Aventuras de un desarrollador que usa mac."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -45,8 +45,10 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Xavi Aracil" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/xaviaracil"
+    - "https://www.linkedin.com/in/xaviaracil"
 
 # Analytics
 analytics:
@@ -78,7 +80,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "xaviaracil"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -204,3 +206,13 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      layout: single
+      comments: true

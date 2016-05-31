@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-02-28 15:27:26+00:00
-layout: single
 slug: subversion-como-ignorar-ficheros-de-forma-global
 title: 'Subversion: cómo ignorar ficheros de forma global'
 wordpress_id: 76

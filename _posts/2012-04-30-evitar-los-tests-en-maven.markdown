@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2012-04-30 14:17:30+00:00
-layout: single
 slug: evitar-los-tests-en-maven
 title: Evitar los tests en maven
 wordpress_id: 214

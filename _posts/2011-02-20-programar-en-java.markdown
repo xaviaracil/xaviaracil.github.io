@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-02-20 19:41:26+00:00
-layout: single
 slug: programar-en-java
 title: Programar en Java
 wordpress_id: 50

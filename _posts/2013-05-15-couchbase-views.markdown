@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-15 14:36:43+00:00
-layout: single
 slug: couchbase-views
 title: 'Couchbase: Views'
 wordpress_id: 249

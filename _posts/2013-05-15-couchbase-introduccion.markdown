@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-15 09:07:35+00:00
-layout: single
 slug: couchbase-introduccion
 title: 'Couchbase: Introducción'
 wordpress_id: 244

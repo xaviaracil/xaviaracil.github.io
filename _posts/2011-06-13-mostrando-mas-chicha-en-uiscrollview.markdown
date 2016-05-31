@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-06-13 12:41:14+00:00
-layout: single
 slug: mostrando-mas-chicha-en-uiscrollview
 title: Mostrando más "chicha" en UIScrollView
 wordpress_id: 136

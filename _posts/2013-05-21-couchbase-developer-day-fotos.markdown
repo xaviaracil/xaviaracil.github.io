@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-21 15:39:32+00:00
-layout: single
 slug: couchbase-developer-day-fotos
 title: Couchbase Developer Day Fotos
 wordpress_id: 254

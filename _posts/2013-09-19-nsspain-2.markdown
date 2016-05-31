@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-09-19 11:33:13+00:00
-layout: single
 slug: nsspain-2
 title: NSSpain
 wordpress_id: 287

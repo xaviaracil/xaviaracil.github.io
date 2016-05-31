@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-11-21 14:25:42+00:00
-layout: single
 slug: lion-eclipse-en-pantalla-completa
 title: 'Lion: Eclipse en pantalla completa'
 wordpress_id: 199

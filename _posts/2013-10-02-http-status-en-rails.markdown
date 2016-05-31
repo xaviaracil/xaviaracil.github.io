@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-10-02 12:16:35+00:00
-layout: single
 slug: http-status-en-rails
 title: HTTP status en Rails
 wordpress_id: 291

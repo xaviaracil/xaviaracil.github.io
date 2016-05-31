@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-15 11:10:46+00:00
-layout: single
 slug: couchbase-basic-operations
 title: 'Couchbase: Basic Operations'
 wordpress_id: 247

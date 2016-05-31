@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-02-21 21:34:03+00:00
-layout: single
 slug: usando-categorias-para-evitar-duplicar-codigo
 title: Usando categorías para evitar duplicar código
 wordpress_id: 54

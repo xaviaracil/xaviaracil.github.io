@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-13 11:20:08+00:00
-layout: single
 slug: trabajando-desde-casa
 title: Trabajando desde casa
 wordpress_id: 230

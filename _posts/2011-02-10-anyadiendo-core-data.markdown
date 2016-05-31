@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-02-10 08:43:22+00:00
-layout: single
 slug: anyadiendo-core-data
 title: Añadiendo Core Data
 wordpress_id: 26

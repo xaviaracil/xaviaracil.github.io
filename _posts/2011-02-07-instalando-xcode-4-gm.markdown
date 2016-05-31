@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-02-07 15:57:17+00:00
-layout: single
 slug: instalando-xcode-4-gm
 title: Instalando Xcode 4 GM
 wordpress_id: 21

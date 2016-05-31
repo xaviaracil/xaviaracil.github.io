@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-03-10 12:31:07+00:00
-layout: single
 slug: instalar-jdk-1-5-en-snow-leopard
 title: Instalar JDK 1.5 en Snow Leopard
 wordpress_id: 83

@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-12-09 10:07:59+00:00
-layout: single
 slug: anadir-documentacion-propia-a-xcode
 title: Añadir documentación propia a XCode
 wordpress_id: 203

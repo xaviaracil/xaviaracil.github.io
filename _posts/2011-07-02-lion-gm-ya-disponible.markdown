@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-07-02 08:20:59+00:00
-layout: single
 slug: lion-gm-ya-disponible
 title: Lion GM ya disponible
 wordpress_id: 184

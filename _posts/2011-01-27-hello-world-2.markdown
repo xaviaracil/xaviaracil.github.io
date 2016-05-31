@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-01-27 21:01:29+00:00
-layout: single
 slug: hello-world-2
 title: Hello world!
 wordpress_id: 120

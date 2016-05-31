@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-06-08 18:37:11+00:00
-layout: single
 slug: obtener-datos-json
 title: Obtener datos JSON
 wordpress_id: 130

@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-06-01 18:35:06+00:00
-layout: single
 slug: uso-de-uiscrollview-para-paginar
 title: Uso de UIScrollView para paginar
 wordpress_id: 107

@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2011-12-12 10:58:27+00:00
-layout: single
 slug: creando-uiview-en-tiempo-de-ejecucion
 title: Creando UIView en tiempo de ejecución
 wordpress_id: 174

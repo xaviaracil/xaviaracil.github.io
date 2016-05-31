@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-05-16 09:59:30+00:00
-layout: single
 slug: test-unitarios-en-javascript
 title: Test unitarios en Javascript
 wordpress_id: 251

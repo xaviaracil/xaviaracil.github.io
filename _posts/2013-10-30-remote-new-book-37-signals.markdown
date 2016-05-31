@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-10-30 13:08:00+00:00
-layout: single
 slug: remote-new-book-37-signals
 title: 'REMOTE: The new book from 37 signals'
 wordpress_id: 303

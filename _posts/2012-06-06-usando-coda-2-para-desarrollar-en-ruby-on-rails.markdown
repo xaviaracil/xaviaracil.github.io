@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2012-06-06 15:05:03+00:00
-layout: single
 slug: usando-coda-2-para-desarrollar-en-ruby-on-rails
 title: Usando Coda 2 para desarrollar en Ruby On Rails
 wordpress_id: 218

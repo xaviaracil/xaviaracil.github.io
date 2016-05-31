@@ -1,8 +1,5 @@
 ---
-author: desarrolloenmac
-comments: true
 date: 2013-06-20 07:26:42+00:00
-layout: single
 slug: sobre-la-wwdc
 title: Sobre la WWDC
 wordpress_id: 278
