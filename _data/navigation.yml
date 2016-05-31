@@ -1,4 +1,4 @@
 # main links links
 main:
   - title: "About"
-    url: "http://localhost:4000/about"
+    url: "/about"
