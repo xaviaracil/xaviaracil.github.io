@@ -1,0 +1,166 @@
+---
+author: desarrolloenmac
+comments: true
+date: 2013-09-19 11:33:13+00:00
+layout: single
+slug: nsspain-2
+title: NSSpain
+wordpress_id: 287
+categories:
+- Cocoa
+- iOS
+- Objective-C
+---
+
+[Storify](http://storify.com?utm_source=embed_header) by  
+[LaiBeth eSolutions](//storify.com/laibethe)
+
+[Thu, Sep 19 2013 04:32:03](http://storify.com/laibethe/nsspain/preview)
+
+##
+
+# NSSpain
+
+Enlaces a las presentaciones de la NSSpain 2013
+
+  1.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+Como no pude ir a la NSSpain de este año he recogido las presentaciones publicas a continuacion.
+
+  2.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+[![steipete](http://a0.twimg.com/profile_images/2455994521/fjdtq8zxufoe80souted_normal.jpeg)](http://twitter.com/steipete)
+
+[Peter Steinberger](http://twitter.com/steipete)[@steipete](http://twitter.com/steipete)
+
+I've published my talk about Practical Runtime Hackery. (Won't be as good as the upcoming video though) speakerdeck.com/steipete/pract… [#NSSpain](http://twitter.com/search?q=%23NSSpain)
+
+__
+
+[[](http://twitter.com/steipete/status/380386772636930048)](http://twitter.com)
+
+[Wed, Sep 18 2013 10:44:08](http://twitter.com/steipete/status/380386772636930048)
+
+[Reply](http://twitter.com/intent/tweet?in_reply_to=380386772636930048&related=storify)[Retweet](http://twitter.com/intent/retweet?tweet_id=380386772636930048&related=storify)[Favorite](http://twitter.com/intent/favorite?tweet_id=380386772636930048&related=storify)
+
+  3.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+[![chriseidhof](http://a0.twimg.com/profile_images/1394649917/icon_normal.png)](http://twitter.com/chriseidhof)
+
+[Chris Eidhof](http://twitter.com/chriseidhof)[@chriseidhof](http://twitter.com/chriseidhof)
+
+My slides from yesterday's [@NSSpain](http://twitter.com/NSSpain) talk are online: speakerdeck.com/chriseidhof/li… (probably easier to read the articles: objc.io/issue-1/)
+
+__
+
+[[](http://twitter.com/chriseidhof/status/380581730677456896)](http://twitter.com)
+
+[Wed, Sep 18 2013 23:38:50](http://twitter.com/chriseidhof/status/380581730677456896)
+
+[Reply](http://twitter.com/intent/tweet?in_reply_to=380581730677456896&related=storify)[Retweet](http://twitter.com/intent/retweet?tweet_id=380581730677456896&related=storify)[Favorite](http://twitter.com/intent/favorite?tweet_id=380581730677456896&related=storify)
+
+  4.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+[![patoroco](http://a0.twimg.com/profile_images/3644183432/0c4bfc8e83bfdf36e682e30c8c9e5ccf_normal.jpeg)](http://twitter.com/patoroco)
+
+[Jorge Maroto](http://twitter.com/patoroco)[@patoroco](http://twitter.com/patoroco)
+
+I've created a gist-compilation about [@NSSpain](http://twitter.com/NSSpain), please speakers add your slides, sources, whatever ;) - maroto.me/s0q2
+
+__
+
+[[](http://twitter.com/patoroco/status/380408864543625217)](http://twitter.com)
+
+[Wed, Sep 18 2013 12:11:55](http://twitter.com/patoroco/status/380408864543625217)
+
+[Reply](http://twitter.com/intent/tweet?in_reply_to=380408864543625217&related=storify)[Retweet](http://twitter.com/intent/retweet?tweet_id=380408864543625217&related=storify)[Favorite](http://twitter.com/intent/favorite?tweet_id=380408864543625217&related=storify)
+
+  5.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+[![jsanchezsierra](http://a0.twimg.com/profile_images/1253897641/twitterPic_normal.jpg)](http://twitter.com/jsanchezsierra)
+
+[Javier Sanchez](http://twitter.com/jsanchezsierra)[@jsanchezsierra](http://twitter.com/jsanchezsierra)
+
+"Audio Recipes for iOS" at [#NSSpain](http://twitter.com/search?q=%23NSSpain) Here you can find the presentation slides  ccrma.stanford.edu/~jsanchez/NSSp… I hope it would be useful for you!!!
+
+__
+
+[[](http://twitter.com/jsanchezsierra/status/380342415124484098)](http://twitter.com)
+
+[Wed, Sep 18 2013 07:47:52](http://twitter.com/jsanchezsierra/status/380342415124484098)
+
+[Reply](http://twitter.com/intent/tweet?in_reply_to=380342415124484098&related=storify)[Retweet](http://twitter.com/intent/retweet?tweet_id=380342415124484098&related=storify)[Favorite](http://twitter.com/intent/favorite?tweet_id=380342415124484098&related=storify)
+
+  6.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+[![carlbalbas](http://a0.twimg.com/profile_images/1576561472/technology-liberal_arts-cross_normal.png)](http://twitter.com/carlbalbas)
+
+[Carlos Balbas](http://twitter.com/carlbalbas)[@carlbalbas](http://twitter.com/carlbalbas)
+
+NSSpain en Imagenes agbo.biz/blog/nsspain-e… /c [@frr149](http://twitter.com/frr149)
+
+__
+
+[[](http://twitter.com/carlbalbas/status/380384175800344576)](http://twitter.com)
+
+[Wed, Sep 18 2013 10:33:49](http://twitter.com/carlbalbas/status/380384175800344576)
+
+[Reply](http://twitter.com/intent/tweet?in_reply_to=380384175800344576&related=storify)[Retweet](http://twitter.com/intent/retweet?tweet_id=380384175800344576&related=storify)[Favorite](http://twitter.com/intent/favorite?tweet_id=380384175800344576&related=storify)
+
+  7.     * Share on Facebook
+    * Share on Twitter
+    * Share on Google+
+    * Share on Linkedin
+    * Share by email
+
+[![ceterum_censeo](http://a0.twimg.com/profile_images/1846527502/twitter_normal.png)](http://twitter.com/ceterum_censeo)
+
+[robb](http://twitter.com/ceterum_censeo)[@ceterum_censeo](http://twitter.com/ceterum_censeo)
+
+Here are the slides for my ReactiveCocoa talk at [@NSSpain](http://twitter.com/NSSpain) speakerdeck.com/robb/reactivec…
+
+__
+
+[[](http://twitter.com/ceterum_censeo/status/380326530259632128)](http://twitter.com)
+
+[Wed, Sep 18 2013 06:44:45](http://twitter.com/ceterum_censeo/status/380326530259632128)
+
+[Reply](http://twitter.com/intent/tweet?in_reply_to=380326530259632128&related=storify)[Retweet](http://twitter.com/intent/retweet?tweet_id=380326530259632128&related=storify)[Favorite](http://twitter.com/intent/favorite?tweet_id=380326530259632128&related=storify)
+
+Read next page
+
+Did you find this story interesting? Be the first to
+like or comment.
+
+
+Liked!
+
+____
+
+[_storify.com_](//storify.com?utm_source=embed_footer&utm_campaign=embed-footer)
+
+### Related stories

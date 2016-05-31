@@ -1,0 +1,16 @@
+---
+author: desarrolloenmac
+comments: true
+date: 2011-04-14 20:22:58+00:00
+layout: single
+slug: xcode-4-0-2
+title: XCode 4.0.2
+wordpress_id: 101
+categories:
+- iOS
+- XCode
+---
+
+Ya está disponible en vuestro [Mac Dev Center](http://developer.apple.com/devcenter/mac/login.action) la versión 4.0.2 de [XCode](http://developer.apple.com/xcode/index.php), que incluye la SDK 4.3 de iOS.
+
+En la página de XCode podréis encontrar las novedades de esta versión.

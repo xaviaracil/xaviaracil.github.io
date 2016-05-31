@@ -1,0 +1,80 @@
+---
+author: desarrolloenmac
+comments: true
+date: 2011-07-12 20:58:16+00:00
+layout: single
+slug: views
+title: Views
+wordpress_id: 185
+categories:
+- Curso programación iOS
+---
+
+En el patrón Model - View - Controller, las vistas son las encargadas de dibujar algo al usuario y responder a la interacción del mismo, dando consistencia y coherencia visual a las aplicaciones.
+
+Cocoa utiliza este patrón, donde la clase genérica es UIView. Obviamente, UIKit (el framework de objetos "visuales" de iOS) proporciona un conjunto de elementos visuales para la interfaz de las aplicaciones, donde todas ellos son subclases de UIView.
+
+
+
+### En la caja
+
+
+
+UIKit viene con un conjunto de subclases de UIView. Entre ellas podemos encontrad clases que pintan etiquetas (UILabel), imágenes (UIImageView), contenido web (UIWebView), mapas (MKMapView), cajas de texto (UITextField), contenido más grande con barras de desplazamiento (UIScrollView), tablas (UITableView), texto con barras de desplazamiento (UITextView), botones (UIButton), barras de progreso (UIProgressBar), switches (UISwitch), sliders (UISlider), etc etc.
+[![](/images/2011-07-12-views/IB-300x287.png)](/images/2011-07-12-views/IB.png)
+<!-- more -->
+
+
+### Human Interface Guidelines
+
+
+Si por algo se distingue Apple es que cuida mucho la interfaz de sus aplicaciones y las de los desarrolladores. Lleva 30 años haciendolo, de manera que todas las aplicaciones mantegan la coherencia del SO, incluyendo atajos de teclado, posición de botones, etc. Para ello publica un documento llamado Human Interface Guidelines, que para iOS se encuentra en [http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html](http://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html)
+
+
+
+### Vista, subvistas, etc
+
+
+Las vistas se representan en la pantalla en forma de árbol. Cada UIView tiene una serie de subsistas que son a la vez UIView. Además, cada UIView tiene una supervista.
+
+De esta manera, la UIView genérica (el nodo raíz del árbol) es la ventana de la aplicación (que es de clase UIWindow que también es una subclase de UIView), y a partir de sus subvistas se va mostrando la interfaz de la aplicación.
+
+UIView contiene métodos para gestionar esta jerarquía de subvistas, donde - (void) addSubView:(UIView *) subview y -(void) removeFromSuperview son las más famosas y comunes (la primera añade una subvista y la segunda quita la vista de su supervista).
+
+Esta jerarquía se utiliza además para reaccionar a eventos del usuario usando el patrón Responder Chain. Un evento se realiza en una vista, si ésta no lo sabe gestionar, pasa el evento a su superview a ver si ésta sabe gestionarlo, y así sucesivamente hasta que alguna vista lo gestione o se pierda.
+
+
+
+### Sistema de coordenadas, frame & bounds
+
+
+Cada UIView tiene su propio sistema de coordenadas en dos dimensiones, donde el punto 0,0 es la esquina superior izquierda, el eje horizontal es la x y el eje vertical es la y, creciendo a derecha y abajo, respectivamente.
+
+La posición de una UIView respecto a su superview está en la propiedad frame (es un CGRect, una estructura que indica punto de origen, anchura y altura). Este frame está en el sistema de coordenadas de la supervista.
+
+El tamaño de la UIView en su propio sistema de coordenadas está en la propiedad bounds (otro CGRect, aunque éste siempre tiene el origen como 0,0).
+
+
+
+### Creación
+
+
+
+Para añadir UIViews a tu interfaz tienes dos formas de hacerlo: gráficamente con Interface Builder o programaticamente. Gráficamente no tiene mucho asunto: arrastras el objeto desde la paleta de Interface Builder a tu vista y ya está.
+[![](/images/2011-07-12-views/paleta-128x300.png)](/images/2011-07-12-views/paleta.png)
+La creación de UIView programaticamente suele tener tres fases:
+
+
+
+
+  * Inicialización del objeto: Creación del objeto UIView con código del estilo UIView *myView = [[UIView alloc] initWithFrame:viewFrame];
+
+
+  * Asignar propiedades al objeto. Si es una UILabel asignamos el texto, etc.
+
+
+  * Añadir la vista a otra, con el método -(void) addSubView:(UIView *)view
+
+
+
+En próximos posts avanzaremos un poco más, indicando cómo animar UIView y cómo crear tus propias vistas.
