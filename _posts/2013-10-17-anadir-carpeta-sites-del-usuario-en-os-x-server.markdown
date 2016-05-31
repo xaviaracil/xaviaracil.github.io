@@ -45,8 +45,9 @@ Un alias no es más que un path que el servidor web resuelve una carpeta diferen
 Editar los alias del sitio web, haciendo clic donde indica el cursor en la siguiente imagen.
 
 
-## [![SitioWeb](/images/2013-10-17-anadir-carpeta-sites-del-usuario-en-os-x-server/SitioWeb-300x194.png)](/images/2013-10-17-anadir-carpeta-sites-del-usuario-en-os-x-server/SitioWeb.png)4. Añadir el alias
+ [![SitioWeb](/images/2013-10-17-anadir-carpeta-sites-del-usuario-en-os-x-server/SitioWeb-300x194.png)](/images/2013-10-17-anadir-carpeta-sites-del-usuario-en-os-x-server/SitioWeb.png)
 
+## 4. Añadir el alias
 
 Click en + y añadir el alias. Acordaos de poner el "~".
 
