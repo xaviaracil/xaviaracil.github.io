@@ -5,6 +5,7 @@ title: Añadir carpeta Sites del usuario en OS X Server
 wordpress_id: 295
 header:
   teaser: 2013-10-17-anadir-carpeta-sites-del-usuario-en-os-x-server/SitiosWeb-120x120.png
+  image: 2013-10-17-anadir-carpeta-sites-del-usuario-en-os-x-server/SitiosWeb.png 
 categories:
 - OS X
 - Teletrabajo

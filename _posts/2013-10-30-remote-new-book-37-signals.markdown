@@ -5,6 +5,7 @@ title: 'REMOTE: The new book from 37 signals'
 wordpress_id: 303
 header:
   teaser: 2013-10-30-remote-new-book-37-signals/remote_front-150x150.png
+  image: 2013-10-30-remote-new-book-37-signals/remote_front.png
 excerpt_separator: <!--more-->
 categories:
 - Teletrabajo
