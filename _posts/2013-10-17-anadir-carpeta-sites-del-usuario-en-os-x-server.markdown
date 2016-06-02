@@ -7,6 +7,7 @@ categories:
 - OS X
 - Teletrabajo
 ---
+{% include toc %}
 
 A partir de Lion Compartir Web dejó de estar accesible en la preferencia del sistema Compartir. No obstante, OS X seguía viniendo con Apache, por lo que se podía activar el Compartir Web siguiendo tutoriales como el de [http://reviews.cnet.com/8301-13727_7-57481978-263/how-to-enable-web-sharing-in-os-x-mountain-lion/](http://reviews.cnet.com/8301-13727_7-57481978-263/how-to-enable-web-sharing-in-os-x-mountain-lion).
 
