@@ -2,7 +2,7 @@ task default: %w[serve]
 
 task :tweet do
   ARGV.shift
-  puts ARGV
+  puts "executing t update #{ARGV}"
   bundle exec "t update #{ARGV}"
   # By default, rake considers each 'argument' to be the name of an actual task.
   # It will try to invoke each one as a task.  By dynamically defining a dummy
