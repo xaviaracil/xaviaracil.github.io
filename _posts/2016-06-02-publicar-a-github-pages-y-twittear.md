@@ -126,7 +126,7 @@ Para automatizar la publicación de un tweet, definimos en el `Rakefile` la tare
 
 	task :tweet do
 		ARGV.shift
-		t update ARGV
+		bundle exec "t update " + ARGV
 		# By default, rake considers each 'argument' to be the name of an actual task.
 		# It will try to invoke each one as a task.  By dynamically defining a dummy
 		# task for every argument, we can prevent an exception from being thrown
