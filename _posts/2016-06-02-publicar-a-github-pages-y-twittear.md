@@ -123,26 +123,26 @@ Rakefile es, resumiendo mucho, un makefile para ruby (el lenguaje de jekyll). Co
 
 Para automatizar la publicación de un tweet, definimos en el `Rakefile` la tarea:
 
-  task :tweet do
-    require 'jekyll'
-    require 'yaml'
-    ARGV.shift
-    file = ARGV.first
-    user_config = YAML.load_file('_config.yml')
-    config = Jekyll::Configuration.from user_config
-    site = Jekyll::Site.new config
-    site.read
-    site.posts.docs.each do |doc|
-      bundle exec "t update #{config['url']}#{doc.url}" if doc.relative_path == file
-    end
-    # By default, rake considers each 'argument' to be the name of an actual task.
-    # It will try to invoke each one as a task.  By dynamically defining a dummy
-    # task for every argument, we can prevent an exception from being thrown
-    # when rake inevitably doesn't find a defined task with that name.
-    ARGV.each do |arg|
-      task arg.to_sym do ; end
-    end
-  end
+	task :tweet do
+            require 'jekyll'
+            require 'yaml'
+            ARGV.shift
+            file = ARGV.first
+            user_config = YAML.load_file('_config.yml')
+            config = Jekyll::Configuration.from user_config
+            site = Jekyll::Site.new config
+            site.read
+            site.posts.docs.each do |doc|
+                bundle exec "t update #{config['url']}#{doc.url}" if doc.relative_path == file
+            end
+            # By default, rake considers each 'argument' to be the name of an actual task.
+            # It will try to invoke each one as a task.  By dynamically defining a dummy
+            # task for every argument, we can prevent an exception from being thrown
+            # when rake inevitably doesn't find a defined task with that name.
+            ARGV.each do |arg|
+                task arg.to_sym do ; end
+            end
+       end
 
 Este `rake tweet url` será el que llame el `hook` `pre-push`
 El Rakefile completo lo podéis encontrar en <https://github.com/xaviaracil/xaviaracil.github.io/blob/master/Rakefile>
