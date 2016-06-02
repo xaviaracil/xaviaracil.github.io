@@ -11,7 +11,7 @@ title                    : "Desarrollo En Mac"
 title_separator          : "|"
 name                     : "Xavi Aracil Díaz"
 description              : "Aventuras de un desarrollador que usa mac."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://www.desarrolloenmac.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -161,7 +161,6 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -170,7 +169,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-archives
 
 
 # Archives
