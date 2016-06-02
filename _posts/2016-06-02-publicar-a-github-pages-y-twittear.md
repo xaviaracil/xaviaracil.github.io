@@ -86,7 +86,7 @@ El `hook` completo (a guardar como `.git/hooks/pre-push`) es:
 			files=`git diff-tree --no-commit-id --name-only -r $line | grep '^posts/'`
 			for file in $files; do
 				name=`echo "$file" | cut -d/ -f2| cut -d. -f1 | cut -d- -f3-`
-				rake tweet "http://www.desarrolloenmac.com/$name"
+				`rake tweet "http://www.desarrolloenmac.com/$name"``
 			done
 		done
 		exit 0
