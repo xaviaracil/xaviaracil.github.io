@@ -8,6 +8,7 @@ categories:
 - jekyll
 - github-pages
 - git
+- rakefile
 ---
 
 {% include toc %}
