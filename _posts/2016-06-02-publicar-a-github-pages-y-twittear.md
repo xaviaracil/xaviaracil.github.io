@@ -36,9 +36,8 @@ Con esta lista de commits obtenemos los posts pertenecientes al commit.
 
 Ya sólo nos falta crear la URL y llamar al notificador
 
-	for file in $files; do
-		name=`echo "$file" | cut -d/ -f2| cut -d. -f1 | cut -d- -f3-`
-		rake tweet "http://www.desarrolloenmac.com/$name"
+        for file in $files; do
+	    `rake tweet "$file"``
 	done
 
 El `hook` completo (a guardar como `.git/hooks/pre-push`) es:
