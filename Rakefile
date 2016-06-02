@@ -1,6 +1,6 @@
 task default: %w[serve]
 
-task :url do
+task :tweet do
   require 'jekyll'
   require 'yaml'
 
@@ -16,19 +16,6 @@ task :url do
     bundle exec "t update #{doc.url}" if doc.relative_path == file
   end
 
-  # By default, rake considers each 'argument' to be the name of an actual task.
-  # It will try to invoke each one as a task.  By dynamically defining a dummy
-  # task for every argument, we can prevent an exception from being thrown
-  # when rake inevitably doesn't find a defined task with that name.
-  ARGV.each do |arg|
-    task arg.to_sym do ; end
-  end
-
-end
-
-task :tweet do
-  ARGV.shift
-  bundle exec "t update #{ARGV.first}"
   # By default, rake considers each 'argument' to be the name of an actual task.
   # It will try to invoke each one as a task.  By dynamically defining a dummy
   # task for every argument, we can prevent an exception from being thrown

@@ -123,7 +123,7 @@ Rakefile es, resumiendo mucho, un makefile para ruby (el lenguaje de jekyll). Co
 
 Para automatizar la publicación de un tweet, definimos en el `Rakefile` la tarea:
 
-  task :url do
+  task :tweet do
     require 'jekyll'
     require 'yaml'
     ARGV.shift
