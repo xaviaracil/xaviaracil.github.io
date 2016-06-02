@@ -1,9 +1,5 @@
 task default: %w[serve]
 
-task :serve do
-  bundle exec "jekyll serve --config _config.yml,_config.dev.yml"
-end
-
 task :tweet do
   ARGV.shift
   t update ARGV
@@ -43,4 +39,9 @@ namespace :notify do
       puts "! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found."
     end
   end
+end
+
+
+task :serve do
+  bundle exec "jekyll serve --config _config.yml,_config.dev.yml"
 end
