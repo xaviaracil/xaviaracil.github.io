@@ -133,7 +133,7 @@ Para automatizar la publicación de un tweet, definimos en el `Rakefile` la tare
     site = Jekyll::Site.new config
     site.read
     site.posts.docs.each do |doc|
-      bundle exec "t update #{doc.url}" if doc.relative_path == file
+      bundle exec "t update #{config['url']}#{doc.url}" if doc.relative_path == file
     end
     # By default, rake considers each 'argument' to be the name of an actual task.
     # It will try to invoke each one as a task.  By dynamically defining a dummy
