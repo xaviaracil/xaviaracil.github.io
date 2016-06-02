@@ -143,5 +143,7 @@ El Rakefile completo lo podéis encontrar en <https://github.com/xaviaracil/xavi
 
 A priori parece que nos estamos complicando un poco, pero mejor invertir un poco de tiempo ahora que tener que publicar los tweets de forma manual. Ya sabéis, somos *vagos* y queremos que la máquina trabaje para nosotros.
 
+![twitter_cards](/images/2016-06-02-publicar-a-github-pages-y-twittear/twitter_cards.png)
+
 Si queréis que el tweet salga chulo chulo echadle un vistazo a [Twitter Cards](https://dev.twitter.com/cards/overview). El tema que uso en jekyll ([Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)) los soporta y el tweet queda muy bien
 {: .notice--info}
