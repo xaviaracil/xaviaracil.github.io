@@ -67,30 +67,13 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "Software Engineer"
   location         : "Barcelona"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "xaviaracil"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "xaviaracil"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "xaviaracil"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  bitbucket        : xaviaracil
+  flickr           : xaviaracil
+  github           : xaviaracil
+  instagram        : xaviaracil
+  linkedin         : xaviaracil
+  stackoverflow    : http://stackoverflow.com/users/2050492/xavi-aracil
+  twitter          : xaviaracil
 
 
 # Reading Files
