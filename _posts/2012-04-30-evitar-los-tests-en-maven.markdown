@@ -12,14 +12,6 @@ tags:
 
 De acuerdo, SIEMPRE deberían realizarse los test, pero cuando estás compilando algo que no es tuyo y los tests fallan, la forma de evitar que maven los ejecuten es mediante el flag
 
-
-
-
-
--Dmaven.test.skip=true
-
-
-
-
+	-Dmaven.test.skip=true
 
 Parece una tontería, pero siempre me equivoco al poner este flag
