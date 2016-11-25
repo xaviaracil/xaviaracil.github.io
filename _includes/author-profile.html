@@ -25,6 +25,9 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
+      {% for p in site.bio_resources %}
+        <li><a href="{{ p.url }}" target="_blank"><i class="fa fa-fw fa-file-text-o" aria-hidden="true"></i> {{p.title}}</a></li>
+      {% endfor %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label }}</a></li>
       {% endif %}

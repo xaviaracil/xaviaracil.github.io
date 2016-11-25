@@ -75,11 +75,16 @@ author:
   stackoverflow    : http://stackoverflow.com/users/2050492/xavi-aracil
   twitter          : xaviaracil
 
+collections:
+  bio_resources:
+    output: true
+    permalink: /bio/:path/
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -140,18 +145,18 @@ timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_z
 # Plugins
 gems:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-sitemap
 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-sitemap
 
 
 # Archives
