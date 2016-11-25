@@ -2,7 +2,7 @@ task default: %w[serve]
 
 task :tweet do
   require 'jekyll'
-  require 'yaml'
+#  require 'yaml'
 
   ARGV.shift
   file = ARGV.first

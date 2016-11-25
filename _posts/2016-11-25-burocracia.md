@@ -1,8 +1,8 @@
 ---
 title: "Burocracia"
 header:
-  teaser: 2016-11-26-burocracia/441901793_4f24f8f9e8-150x150.jpg
-  image: 2016-11-26-burocracia/441901793_4f24f8f9e8.jpg
+  teaser: 2016-11-25-burocracia/441901793_4f24f8f9e8-150x150.jpg
+  image: 2016-11-25-burocracia/441901793_4f24f8f9e8.jpg
 excerpt_separator: <!--more-->
 
 ---
