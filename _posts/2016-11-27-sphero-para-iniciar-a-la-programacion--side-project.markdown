@@ -22,7 +22,7 @@ La idea de introducir la programación a mis hijas no es nueva. El año pasado l
 
 La mayoría de tutoriales en niveles introductorios se basan en programar pequeñas relacionadas con movimientos (ir a algún lugar, realizar una acción varias veces, etc). Me recuerdan al [Logo](https://en.wikipedia.org/wiki/Logo_%28programming_language%29), aquel lenguaje de programación con el que, junto a BASIC, empezamos a programar los de mi generación. Si no sabéis de que va, era una tortuga (o eso creíamos) que teníamos que programar, indicándole a donde ir.
 
-Así, cuando vi el BB-8 de oferta, se me pasó por la cabeza hacer del BB-8 esa tortuga del 2016 para que mis hijas se introduzcan en el mundo del pensamiento computacional y la programación. Además, Sphero tiene una zona exclusiva dedicada a educación en http://www.sphero.com/education donde proporciona, entre otras, una app donde realizar programas similar a Scratch que se ejecutan directamente en el robot.
+Así, cuando vi el BB-8 de oferta, se me pasó por la cabeza hacer del BB-8 esa tortuga del 2016 para que mis hijas se introduzcan en el mundo del pensamiento computacional y la programación. Además, Sphero tiene una zona exclusiva dedicada a educación en (http://www.sphero.com/education) donde proporciona, entre otras, una app donde realizar programas similar a Scratch que se ejecutan directamente en el robot.
 
 Por último, y esto ya para mí, tiene SDK, y también está el código del playground, por lo que me animaré a hacer alguna app para *jugar* con él. Ya iré publicando los progresos.
 
