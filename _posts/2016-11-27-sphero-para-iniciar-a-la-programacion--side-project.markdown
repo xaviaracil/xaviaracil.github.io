@@ -8,6 +8,7 @@ excerpt_separator: <!--more-->
 categories:
   - swift
   - learning
+  - sphero
 ---
 
 Esta semana (y no ha sido por el Black Friday) me he comprado el  [BB-8 de Sphero](http://www.sphero.com/starwars/bb8). A parte de saciar mi parte friki, la compra tiene otro objetivo principal.
