@@ -24,10 +24,12 @@ Un playground no es más que un [bundle](https://developer.apple.com/library/con
 
 ![show package contents](/images/2017-03-30-swift-playground/bundle.png)
 
-# Formato del Playground
+# Formato del Playground Book
 
-Una vez dentro del playground 
-La especificación completa del formato la podréis encontrar en  https://developer.apple.com/library/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/index.html
+![playground book](/images/2017-03-30-swift-playground/playground_book.png)
+
+
+> La especificación completa del formato la podréis encontrar en  https://developer.apple.com/library/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/index.html
 
 # Extra
 
