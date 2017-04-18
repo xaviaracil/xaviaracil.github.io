@@ -2,6 +2,10 @@
 title: "Swift Playground to iOS Project"
 date: "2017-03-30 15:16:07 +0200"
 excerpt_separator: <!--more-->
+header:
+  teaser: /2017-03-30-swift-playground/441901793_4f24f8f9e8-150x150.jpg
+  image: 2017-03-30-swift-playground/playground_book.png
+
 categories:
   - swift
   - learning
@@ -26,11 +30,40 @@ Un playground no es más que un [bundle](https://developer.apple.com/library/con
 
 # Formato del Playground Book
 
+Si abrimos el contenido del paquete del playground disponible en https://developer.apple.com/swift/blog/?id=38 veremos algo así como la imagen siguiente:
+
 ![playground book](/images/2017-03-30-swift-playground/playground_book.png)
 
+Parece sencillo, ¿verdad? un par de apuntes:
+
+- `Chapters` contiene los capítulos o apartados del _book_. Dentro esta el fichero `Manifest.plist` con los metadatos del _book_ (capítulos, etc.).
+- `Resources` contiene los recursos generales de todo el _book_ (imágenes, vídeos, etc.).
+
+Cada capítulo es una carpeta con:
+
+- Carpeta `Pages` con carpetas para cada página del capítulo.
+- Carpeta `Sources` con código fuente común al capítulo (_aka las librerías_).
+- Fichero `Manifest.plist` con metadatos del capítulo (páginas, etc).
+
+Cada página es una carpeta con:
+
+- Fichero `Contents.swift` con el código que se visualiza (y ejecuta) en la página.
+- Carpeta `Resources` con recursos de la página (imágenes, vídeos, etc.).
+- Fichero `Manifest.plist` con metadatos de la página (cómo debe visualizarse, etc.).
 
 > La especificación completa del formato la podréis encontrar en  https://developer.apple.com/library/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/index.html
+
+Así pues, todo lo que hay en la/s carpeta/s `Sources` y en los ficheros `Contents.swift` conforma el _codebase_ del proyecto. Para nuestro objetivo, la _chicha_ se encuentra en el capitulo `Sphero.playgroundchapter`.
+
+> **Licencia**
+
+> El código del playground tiene licencia "AS IS", así que en principio se puede usar. De todas maneras, si hay alguno experto en derecho es un buen momento para manifestarse.
+
 
 # Extra
 
 Hemos visto cómo está formado un playground. Alguno de vosotros habrá pensado en crear sus propios playgrounds (_total, son cuatro ficheros con un par de metadatos_). Si estaís interesados, os recomiendo el post de Ash Furrow [Building Swift Playground Books](https://ashfurrow.com/blog/building-swift-playground-books/)
+
+# Siguientes pasos
+
+Una vez tenga claro el aspecto legal (básicamente si la licencia permite usar el código fuente, que creo que _sí_) adaptaré el código en un proyecto iOS.
