@@ -3,7 +3,7 @@ title: "Swift Playground to iOS Project"
 date: "2017-04-18 16:40:13 +0200"
 excerpt_separator: <!--more-->
 header:
-  teaser: 2017-03-30-swift-playground/441901793_4f24f8f9e8-150x150.jpg
+  teaser: 2017-03-30-swift-playground/playground_book-150x150.png
   image: 2017-03-30-swift-playground/playground_book.png
 
 categories:
