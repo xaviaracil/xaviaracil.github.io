@@ -29,7 +29,7 @@ De vuelta a la actualidad, vamos a intentar automatizarlo de nuevo.
 
 ## TL;DR
 
-Bajate los scripts de https://github.com/xaviaracil/zone-scripts y copia los ficheros `Getting in the Zone.scpt` y `Back from Zone.scpt` a la carpeta `~/Library/Scripts` (si no existe la puedes crear).
+Bajate los scripts de <https://github.com/xaviaracil/zone-scripts> y copia los ficheros `Getting in the Zone.scpt` y `Back from Zone.scpt` a la carpeta `~/Library/Scripts` (si no existe la puedes crear).
 
 Para acceder a los scripts abre la aplicación `Editor de Scripts` y activa `Mostrar el menú Scripts en la barra de menús` en las preferencias.
 
@@ -60,7 +60,7 @@ El cógido para cerrar estas aplicaciones es tan simple como:
       tell application theApp to quit
 	end repeat
 
-El código está disponible en el repo  https://github.com/xaviaracil/zone-scripts de GitHub.
+El código está disponible en el repo  <https://github.com/xaviaracil/zone-scripts> de GitHub.
 
 ## Poniendo los scripts en su sitio
 
@@ -87,5 +87,5 @@ Podéis crear un servicio en Automator que ejecute cada uno de los scripts. Pare
 
 # Mejoras
 
-1. Se podría integrar el código de http://stackoverflow.com/questions/25210120/is-it-possible-to-turn-on-off-do-not-disturb-for-os-x-programmatically para activar/desactivar la funcionalidad de "No Molestar" del Centro de Notificaciones.
+1. Se podría integrar el código de <http://stackoverflow.com/questions/25210120/is-it-possible-to-turn-on-off-do-not-disturb-for-os-x-programmatically> para activar/desactivar la funcionalidad de "No Molestar" del Centro de Notificaciones.
 2. Se podría _recordar_ de alguna manera al usuario para que: deshabilite las notificaciones de su smartphone, o al menos le dé la vuelta y lo ponga boca abajo.

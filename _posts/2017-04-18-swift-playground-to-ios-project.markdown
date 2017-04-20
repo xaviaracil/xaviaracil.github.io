@@ -11,7 +11,7 @@ categories:
   - learning
   - sphero
 ---
-En {% post_url 2017-03-29-sphero-primeros-pasos %} os comenté que _jugaría_ con el playground disponible en https://developer.apple.com/swift/blog/?id=38 para ver cómo se comunicaba con el Sphero. Para ello, mi idea es crear una app en iOS con el código del playground, ya que:
+En {% post_url 2017-03-29-sphero-primeros-pasos %} os comenté que _jugaría_ con el playground disponible en <https://developer.apple.com/swift/blog/?id=38> para ver cómo se comunicaba con el Sphero. Para ello, mi idea es crear una app en iOS con el código del playground, ya que:
 
 * Tengo ganas de ver el código.
 * Mi iPad no puede ejecutar [Swift Playgounds](http://www.apple.com/swift/playgrounds/)
@@ -30,7 +30,7 @@ Un playground no es más que un [bundle](https://developer.apple.com/library/con
 
 # Formato del Playground Book
 
-Si abrimos el contenido del paquete del playground disponible en https://developer.apple.com/swift/blog/?id=38 veremos algo así como la imagen siguiente:
+Si abrimos el contenido del paquete del playground disponible en <https://developer.apple.com/swift/blog/?id=38> veremos algo así como la imagen siguiente:
 
 ![playground book](/images/2017-03-30-swift-playground/playground_book.png)
 
