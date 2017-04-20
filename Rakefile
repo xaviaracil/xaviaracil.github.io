@@ -13,7 +13,10 @@ task :tweet do
   site.read
 
   site.posts.docs.each do |doc|
-    bundle exec "t update #{config['url']}#{doc.url}" if doc.relative_path == file
+    if doc.relative_path == file
+      hashtags = docs.data['categories'].map{|c| "#" + c.tr_s(" ", "_")}.join(' ')
+      bundle exec "t update #{config['url']}#{doc.url} #{hashtags}"
+    end
   end
 
   # By default, rake considers each 'argument' to be the name of an actual task.
