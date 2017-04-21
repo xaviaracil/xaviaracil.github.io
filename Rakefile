@@ -14,8 +14,8 @@ task :tweet do
 
   site.posts.docs.each do |doc|
     if doc.relative_path == file
-      hashtags = doc.data['categories'].map{|c| "#" + c.tr_s(" ", "_")}.join(' ')
-      bundle exec "t update #{config['url']}#{doc.url} #{hashtags}"
+      hashtags = doc.data['categories'].map{|c| "#" + c.gsub(/-|\s/, "_")}.join(' ')
+      bundle exec "t update \"#{hashtags} #{config['url']}#{doc.url}\""
     end
   end
 

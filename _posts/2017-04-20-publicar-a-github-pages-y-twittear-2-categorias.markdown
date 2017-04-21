@@ -23,12 +23,17 @@ Jekyll guarda las categorías de un post en la clave `categories` del hash `data
 
 Al array de categorías le aplicamos un `map`, que ejecuta el bloque de código para cada elemento del mismo. En nuestro caso, lo que queremos ejecutar es el código que genere un hashtag. Esto es devolver un string que empieze por `#` y que no contenga espacios `c.tr_s(" ", "_")`.
 
+> **Actualización**: Resulta que con `tr_s` subtituimos únicamente los espacios, mientras que Twitter tampoco acepta `-` como parte del hashtag. Así, para que nos haga un hashtag correcto de `github-pages`, por ejemplo, habrá que modificar la llamada por:
+
+    hashtags = doc.data['categories'].map{|c| "#" + c.gsub(/-|\s/, "_")}.join(' ')
+
+
 Para añadir estos hashtags en nuestro tweet modificamos un poco la tarea `:tweet` nuestro `Rakefile`:
 
     site.posts.docs.each do |doc|
       if doc.relative_path == file
-        hashtags = docs.data['categories'].map{|c| "#" + c.tr_s(" ", "_")}.join(' ')
-        bundle exec "t update #{config['url']}#{doc.url} #{hashtags}"
+        hashtags = doc.data['categories'].map{|c| "#" + c.gsub(/-|\s/, "_")}.join(' ')
+        bundle exec "t update \"#{hashtags} #{config['url']}#{doc.url}\""
       end
     end
 
