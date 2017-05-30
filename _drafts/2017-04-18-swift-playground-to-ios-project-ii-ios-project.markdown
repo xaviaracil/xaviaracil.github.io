@@ -16,3 +16,6 @@ categories:
 Seguimos con la serie Sphero, cuyo último post fue {% post_url 2017-04-18-swift-playground-to-ios-project %}. Ahora que ya tenemos localizado el código fuente del playground es hora de crear nuestro proyecto iOS para jugar con BB-8 desde nuestro iPhone.
 
 <!--more-->
+
+
+Prueba de workingapp 
