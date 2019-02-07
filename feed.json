@@ -3,11 +3,11 @@
 [  
   {% for post in site.posts limit:20 %}
   {
-    "uid": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
+    "uid": "{{ post.id }}",
     "redirectionUrl": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
     "titleText": {{ post.title | jsonify }},
     "mainText": {{ post.content | jsonify  }},
-    "updateDate": "{{ post.date | date_to_rfc822 }}"
+    "updateDate": "{{ post.date | date_to_xmlschema }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
