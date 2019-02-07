@@ -29,6 +29,8 @@ Currently, as December 2018, there are 6 challenges in the **OpenAPI Experience*
 
 But don't give up yet, the remaining 5 challenges are good enough to give you an initial vision of what is OpenAPI and some of its possibilities through a couple of tools.
 
+<!--more-->
+
 ## Is this path worth exploring
 
 It's totally worth exploring, the challenges only scratches the surface of OpenAPI, though they aren't trivial, they force you to, at least, dig into the spec documentation.
