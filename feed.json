@@ -1,7 +1,6 @@
 ---
 ---
-[
-  
+[  
   {% for post in site.posts limit:20 %}
   {
     "uid": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
