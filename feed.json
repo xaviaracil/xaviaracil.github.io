@@ -6,7 +6,7 @@
     "uid": "{{ post.id }}",
     "redirectionUrl": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
     "titleText": {{ post.title | jsonify }},
-    "mainText": {{ post.content | jsonify  }},
+    "mainText": {{ post.excerpt | strip_html | jsonify  }},
     "updateDate": "{{ post.date | date_to_xmlschema }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
