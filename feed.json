@@ -1,13 +1,20 @@
 ---
 ---
-[  
+{% assign timeframe = 604800 %}
+{% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+{% assign first = true %}
+[    
   {% for post in site.posts limit:20 %}
+  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+  {% if post_in_seconds > recent_posts %}
+  {% unless first %},{% assign first = false %}{% endunless %}
   {
     "uid": "{{ post.id }}",
     "redirectionUrl": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
     "titleText": {{ post.title | jsonify }},
     "mainText": {{ post.excerpt | strip_html | jsonify  }},
     "updateDate": "{{ post.date | date_to_xmlschema }}"
-    }{% unless forloop.last %},{% endunless %}
+    }
+  {% endif %}
   {% endfor %}
 ]
