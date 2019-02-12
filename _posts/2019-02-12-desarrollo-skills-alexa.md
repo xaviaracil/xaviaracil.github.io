@@ -11,7 +11,7 @@ categories:
 
 # Desarrollo de skills para Alexa
 
-Alexa, si por un casual lleváis un par de años en alguna ermita solitaria, es el asistente de voz de Amazon. Este último año se ha puesto a la venta en España, añadiendo el castellano como lengua, por lo que ya se pueden desarrollar skills (o aplicaciones) para el público castellanohablante. 
+Alexa, si por un casual lleváis un par de años en alguna ermita solitaria, es el asistente de voz de Amazon. Este último año se ha puesto a la venta en España, añadiendo el castellano como lengua, por lo que ya se pueden desarrollar skills (o aplicaciones) para el público castellanohablante.
 
 Vamos a ver una visión general de cómo desarrollar una skill.
 
