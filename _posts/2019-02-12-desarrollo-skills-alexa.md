@@ -9,8 +9,6 @@ categories:
   - serverless
 ---
 
-# Desarrollo de skills para Alexa
-
 Alexa, si por un casual lleváis un par de años en alguna ermita solitaria, es el asistente de voz de Amazon. Este último año se ha puesto a la venta en España, añadiendo el castellano como lengua, por lo que ya se pueden desarrollar skills (o aplicaciones) para el público castellanohablante.
 
 Vamos a ver una visión general de cómo desarrollar una skill.
@@ -35,7 +33,7 @@ Allí podemos ver las tres partes de la skill, separadas en tres ficheros:
 * index.js
 * models/*.json
 
-## Manifest de la skill (skill.json)
+# Manifest de la skill (skill.json)
 
 En este fichero puedes definir datos genéricos de la skill: nombre, descripción, frases de ejemplo, categoría, etc.
 
@@ -75,11 +73,11 @@ Aquí se definen también las apis que va a consumir la skill, normalmente funci
 
 > La referencia completa está en [https://developer.amazon.com/docs/smapi/skill-manifest.html](https://developer.amazon.com/docs/smapi/skill-manifest.html)
 
-## Modelo
+# Modelo
 
 Dentro de la carpeta `models` deberéis definir el modelo de vuestra skill para cada idioma. Aquí es donde se definen los `intents`, las `utterances` y los `slots`. Pero vayamos paso a paso.
 
-### Intents, Utterances y Slots
+## Intents, Utterances y Slots
 
 Podríamos definir los `intents` como las acciones que realiza una skill. Las frases que accionan los intents se llaman `utterances`.
 
@@ -87,7 +85,7 @@ Así, si queremos desarrollar una skill que nos cuente chistes, tendremos que de
 
 Ahora, pensemos en ampliar nuestra skill de chistes para añadir categorías, como `cuéntame un chiste de abuelos`, etc. Esta categoría, una variable  que nuestro intent tendrá que procesar se llama `slot`.
 
-### Definición del modelo
+## Definición del modelo
 
 Ahora que ya tenemos los conceptos claros, es hora de definir nuestros intents en el modelo. Para cada locale soportado en nuestra skill, tendremos que definir los intents, dando utterances para que Alexa construya su modelo y definiendo slots.
 
@@ -97,7 +95,7 @@ Amazon nos proporciona una serie de intents y slots predefinidos (de hecho, en l
 
 Sobre Slots hablaremos en próximos posts, cuando hablemos del `Dialog model`.
 
-## Intent Handlers
+# Intent Handlers
 
 El código de la función lambda tendrá nuestros `IntentHandlers`, trozos de código que se encargan de implementar los intents.
 En realidad, un IntentHandler no es más que un objeto que debe implementar dos métodos:
@@ -137,13 +135,13 @@ Los IntentHandlers se deben registrar, de manera ordenada.
       .addErrorHandlers(ErrorHandler)
       .lambda();
 
-## Deployment
+# Deployment
 
 Una vez lo tenemos todo hay que deployar. Bastará con un `ask deploy` para que nuestra skill vaya a las máquinas de Amazon. Allí podremos testearla desde el navegador en la [Consola de Alexa](https://developer.amazon.com/alexa) o directamente en modo texto  vía `ask dialog --locale es-ES`
 
 > OJO: ASK por defecto nos deploya la función lambda en la region de aws us-east-1 (Virginia). Si queremos que los usuarios de la península no tengan que esperar a que su petición cruce el charco tendremos que hacer algún truco para deployar la lambda también en alguna región europea (siendo Irlanda mi preferida)
 > Visual Studio Code tiene una extensión para [ASK](https://github.com/alexa/ask-toolkit-for-vscode) totalmente recomendable. Permite el deploy desde el propio editor.
 
-## Conclusiones y próximos pasos
+# Conclusiones y próximos pasos
 
 Hemos visto que desarrollar una skill básica para Alexa es relativamente sencilla. En próximas entradas veremos skills más complejas, con diálogos para completar los slots, llamadas a apis externas, ya sean públicas o autorizadas mediante `oauth2`, etc.
