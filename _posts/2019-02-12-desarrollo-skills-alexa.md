@@ -17,7 +17,7 @@ Vamos a ver una visión general de cómo desarrollar una skill.
 
 Una Skill cuenta de 3 partes: la definición, el modelo, y el código. Como casi todo en Amazon Web Services, una skill se puede crear vía consola web o vía código + línea de comandos. En este caso, nos centramos en el segundo caso, ya que al tener código podemos tenerlo versionado y a buen recaudo en algún servidor git.
 
-Así pues, necesitaremos la línea de comandos para crear y deployar una skill. Amazon nos proviene para ello con la [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit) o ASK.  ASK. Os permite crear una skill a partir de una serie de plantillas y deployarla a nuestra cuenta de desarrollador de Alexa.
+Así pues, necesitaremos la línea de comandos para crear y deployar una skill. Amazon nos proviene para ello con la [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit) o ASK.  ASK os permite crear una skill a partir de una serie de plantillas y deployarla a nuestra cuenta de desarrollador de Alexa.
 
 > Ojo, que si queremos desarrollar para Alexa necesitamos dos cuentas: una como desarollador Alexa para las skills y otra de AWS para el código de la skill, en forma de función Lambda
 
