@@ -4,6 +4,8 @@ date: "2019-03-20 12:30:00 +0100"
 excerpt_separator: <!--more-->
 categories:
   - blockchain
+  - ibmcloud
+  - ibm
 ---
 
 Este viernes 22 de marzo he asistido al webinar [Desayuna con Hyperledger Blockchain](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=&eventid=1940584&sessionid=1&key=7B60492ACCD3643B462BDC76677D32D0&regTag=&sourcepage=register), presentado por IBM, y centrado en Blockchain y las soluciones proporcionadas por IBM para esta tecnología.
