@@ -115,7 +115,7 @@ La extensión de VS Code puede desplegar una red local para realizar pruebas. As
 
 ## Empaquetado e instalación
 
-La extensión de VS Code también permite empaquetar el smart contract para desplegarlo en la red que tenemos en el cloud. El empaquetado genera un fichero `cds` en tu . La instalación en nuestra red es tan sencilla como ir a la consola web de la red en IBM Cloud e importar este fichero `cds`.
+La extensión de VS Code también permite empaquetar el smart contract para desplegarlo en la red que tenemos en el cloud. El empaquetado genera un fichero `cds` en tu disco duro local. La instalación en nuestra red es tan sencilla como ir a la consola web de la red en IBM Cloud e importar este fichero `cds`.
 
 > Próximamente habrá una api REST para la importación del smart contract fuera de la consola web.
 
