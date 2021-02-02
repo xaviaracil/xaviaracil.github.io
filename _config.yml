@@ -64,7 +64,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Xavi Aracil"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg"
   bio              : "Software Engineer"
   location         : "Barcelona"
   links:
