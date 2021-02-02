@@ -1,0 +1,67 @@
+source,target,value
+Xavi Aracil,EdTech,0
+Xavi Aracil,Software Engineering,0
+Xavi Aracil,Cloud Computing,0
+Software Engineering,Methodologies,0
+Software Engineering,Design Patterns,0
+Software Engineering,Software Development,0
+EdTech,LMS,0
+EdTech,IMS Global,0
+Software Development,Web Application Development,0
+Software Development,Mobile Application Development,0
+Software Development,Desktop Application Development,0
+Software Development,Database,0
+Software Development,SCM,0
+Software Development,Devops,0
+Web Application Development,Java,0
+Web Application Development,Ruby,0
+Web Application Development,Javascript,0
+Web Application Development,HTML,0
+Mobile Application Development,iOS,0
+Mobile Application Development,Android,0
+Mobile Application Development,Hybrid Applications,0
+Desktop Application Development,macOS,0
+Devops,Gitlab CI,0
+Devops,Docker,0
+Devops,Javascript,0
+Devops,HTML,0
+Javascript,JS Frameworks,0
+Java,SpringBoot,0
+Java,Thymeleaf,0
+Ruby,Ruby on Rails,0
+JS Frameworks,VueJS,0
+JS Frameworks,React,0
+JS Frameworks,jQuery,0
+iOS,Objective C,0
+iOS,Swift,0
+iOS,Swift UI,0
+Android,Java for Android,0
+Android,Kotlin,0
+Hybrid Applications,Ionic,0
+macOS,Objective C,0
+macOS,Swift,0
+Database,SQL,0
+Database,Oracle,0
+Database,MySQL/Aurora,0
+Database,PostgreSQL,0
+Database,Couchbase,0
+Database,MongoDB,0
+SCM,Git,0
+SCM,Subversion,0
+Methodologies,Waterfall,0
+Methodologies,Scrum,0
+Design Patterns,MVC,0
+Design Patterns,MVVM,0
+IMS Global,LTI,0
+IMS Global,Calliper,0
+LMS,Moodle,0
+LMS,Self Made,0
+Cloud Computing,AWS,0
+Cloud Computing,Azure,0
+AWS,EC2,0
+AWS,S3,0
+AWS,Lambda,0
+AWS,RDS,0
+AWS,API Gateway,0
+AWS,Cloud Formation,0
+AWS,CloudWatch,0
