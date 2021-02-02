@@ -2,6 +2,7 @@
 layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 Desarrollo En Mac pretende contar las aventuras de un desarrollador que como yo que utiliza un mac tanto en casa como en el trabajo.
