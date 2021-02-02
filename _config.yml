@@ -70,7 +70,7 @@ author:
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
-      url: "https://xaviaracil.github.io/bio/resume"
+      url: "/bio/resume"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://xaviaracil.github.io"
