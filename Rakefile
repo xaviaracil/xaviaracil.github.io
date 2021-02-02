@@ -38,7 +38,7 @@ namespace :notify do
       require 'net/http'
       require 'uri'
       puts "* Notifying Google that the site has updated"
-      Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' + URI.escape('//desarrolloenmac.com/sitemap.xml'))
+      Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' + URI.escape('//xaviaracil.github.io/sitemap.xml'))
     rescue LoadError
       puts "! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found."
     end
@@ -50,7 +50,7 @@ namespace :notify do
       require 'net/http'
       require 'uri'
       puts '* Notifying Bing that the site has updated'
-      Net::HTTP.get('www.bing.com', '/webmaster/ping.aspx?siteMap=' + URI.escape('//desarrolloenmac.com/sitemap.xml'))
+      Net::HTTP.get('www.bing.com', '/webmaster/ping.aspx?siteMap=' + URI.escape('//xaviaracil.github.io/sitemap.xml'))
     rescue LoadError
       puts "! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found."
     end
